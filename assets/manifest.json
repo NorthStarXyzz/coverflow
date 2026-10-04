@@ -1,0 +1,99 @@
+{
+  "generator": "gpt-6-astra",
+  "createdAt": "2026-10-04T13:50:05.206354+00:00",
+  "status": "maintainer-reviewed",
+  "assets": [
+    {
+      "path": "assets/icons/arrow-left.svg",
+      "sha256": "6ccca3fef4c1598da2cea20730aea86c4763827a2850c1e0f4746b19285b7cdd",
+      "bytes": 223,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo"
+    },
+    {
+      "path": "assets/icons/arrow-right.svg",
+      "sha256": "243800529b9c00b3ebde7f7928f233d9d26a46f2b52b36eb819e79320281b803",
+      "bytes": 224,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo"
+    },
+    {
+      "path": "assets/icons/next.svg",
+      "sha256": "4dd0e998aac433980f905c488c8749a19259588c8d54ab237668fa5ef72dd0bb",
+      "bytes": 264,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo"
+    },
+    {
+      "path": "assets/icons/pause.svg",
+      "sha256": "a1924fb18c7c22bb3169d744c6771f787b0c16b7439e80440812ffa40afc35ba",
+      "bytes": 342,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo"
+    },
+    {
+      "path": "assets/icons/play.svg",
+      "sha256": "48d315a96afc82940ed3b877513d81bdb9bd346ce5d0466b154856022b54b635",
+      "bytes": 289,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo"
+    },
+    {
+      "path": "assets/icons/previous.svg",
+      "sha256": "85243e300e5f7767b96bcf28b75d8c7b4dc51a1a83a2e5947f172b433b36db45",
+      "bytes": 263,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo"
+    },
+    {
+      "path": "assets/covers/afterglow.svg",
+      "sha256": "e180a10f12c49729ee508dd7eb726d83f2d4bab8d75dac1a286b6c15652f46d1",
+      "bytes": 2054,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo",
+      "humanEdits": "Replaced fictional label typography with descriptive ORIGINAL STUDIES text."
+    },
+    {
+      "path": "assets/covers/arcadia.svg",
+      "sha256": "352749079ac58f81ac6511d0e07ff9f4b31a0cca8b942e0672710aedf53b058c",
+      "bytes": 2052,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo",
+      "humanEdits": "Replaced fictional label typography with descriptive ORIGINAL STUDIES text."
+    },
+    {
+      "path": "assets/covers/nocturne.svg",
+      "sha256": "51297b53bbad71f3526cb5d916d59543f6649b89d76443816c6fc171483348b4",
+      "bytes": 2383,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo",
+      "humanEdits": "Replaced fictional label typography with descriptive ORIGINAL STUDIES text."
+    },
+    {
+      "path": "assets/covers/quiet-orbit.svg",
+      "sha256": "2b80cc9f961fc71669962e345fedb0de85e26095658819988fca7b76d248fcce",
+      "bytes": 1741,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo",
+      "humanEdits": "Replaced fictional label typography with descriptive ORIGINAL STUDIES text."
+    },
+    {
+      "path": "assets/covers/silver-haze.svg",
+      "sha256": "26abb8b621a17822556ac9b4af23a68f1f0659217f52ef077b1f924ad615d732",
+      "bytes": 4006,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo",
+      "humanEdits": "Replaced fictional label typography with descriptive ORIGINAL STUDIES text."
+    },
+    {
+      "path": "assets/covers/tideline.svg",
+      "sha256": "a5b11ff1f04d348f4eb06e3be84ed99b2f389e969345ca40999aa91471c371d0",
+      "bytes": 2428,
+      "origin": "GPT-6 Astra, supplied original written brief",
+      "review": "maintainer source/structure review; cover art and primary controls viewed in the demo",
+      "humanEdits": "Replaced fictional label typography with descriptive ORIGINAL STUDIES text."
+    }
+  ],
+  "reviewedAt": "2026-10-04T16:16:11.783996+00:00",
+  "reviewScope": "SVG structure, local references, hashes, source review and browser presentation; not a guarantee of uniqueness or legal clearance."
+}

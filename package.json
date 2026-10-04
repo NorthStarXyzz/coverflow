@@ -1,0 +1,66 @@
+{
+  "name": "@northstarxyzz/coverflow",
+  "version": "0.1.0",
+  "description": "A small, framework-independent 3D cover carousel with reflections, spring motion and accessible controls.",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": [
+    "./src/style.css",
+    "./dist/style.css"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist",
+    "assets",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/API.md",
+    "docs/ARTWORK.md",
+    "docs/ARTWORK_BRIEF.md",
+    "docs/ARTWORK_GENERATION.md",
+    "docs/DESIGN.md",
+    "src",
+    "docs/demo-preview.jpg",
+    "docs/VERIFICATION.md"
+  ],
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5176 --strictPort",
+    "build": "node scripts/build.mjs",
+    "build:demo": "vite build",
+    "typecheck": "tsc --noEmit && tsc -p tsconfig.demo.json",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check:assets": "node scripts/check-assets.mjs",
+    "verify": "npm run typecheck && npm test && npm run check:assets && npm run build && npm run build:demo",
+    "prepack": "npm run build",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NorthStarXyzz/coverflow.git"
+  },
+  "homepage": "https://github.com/NorthStarXyzz/coverflow#readme",
+  "bugs": {
+    "url": "https://github.com/NorthStarXyzz/coverflow/issues"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vite": "8.3.2",
+    "tsx": "4.20.6",
+    "jsdom": "26.1.0",
+    "@types/node": "22.15.30"
+  }
+}

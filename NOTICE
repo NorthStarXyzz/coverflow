@@ -1,0 +1,17 @@
+Coverflow 0.1.0
+Copyright (c) 2026 NorthStarXyzz
+
+Side-stack geometry and interaction references:
+- Addy Osmani, threejs-coverflow, MIT (2025).
+- Ashish Gogula, coverflow, MIT (2026).
+- Tanner Villarete, ipod-classic-js, MIT (2019), historical interaction reference.
+See THIRD_PARTY_NOTICES.md for pinned reference versions and complete licenses.
+
+The demo’s six illustrations and six generic SVG glyphs were generated with
+GPT-6 Astra from a written original-design brief, then reviewed and edited by
+the maintainer. No reference album photographs, client icons, extracted styles,
+private app binaries, lyrics or music recordings are included.
+See docs/ARTWORK.md and assets/manifest.json for provenance and review scope.
+
+This is an independent component. It is not affiliated with or endorsed by
+Apple, Spotify, Cider or the creators of the reference projects.

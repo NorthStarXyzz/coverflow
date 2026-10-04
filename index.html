@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="An independent 3D cover carousel with reflections, spring motion, keyboard navigation and original artwork."><title>Coverflow — depth, in motion</title></head>
+<body data-theme="dark">
+<a class="skip-link" href="#gallery">Skip to the carousel</a>
+<header class="site-header"><a class="wordmark" href="./" aria-label="Coverflow home">coverflow<span>.</span></a><nav aria-label="Site"><a href="#integration">Integration</a><a href="https://github.com/NorthStarXyzz/coverflow" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><button id="theme-toggle" class="theme-button" type="button" aria-label="Switch to light appearance">Light</button></nav></header>
+<main>
+<section class="hero" aria-labelledby="hero-title"><div class="hero-heading"><p class="eyebrow">An independent 3D carousel</p><h1 id="hero-title">Depth, in motion.</h1><p class="intro">A familiar way to browse. A considered way to move.</p></div>
+<div class="gallery-wrap"><div class="ambient" aria-hidden="true"></div><div id="gallery" aria-label="Original cover collection"></div></div>
+<div class="controls" aria-label="Collection controls"><div class="browse-controls"><button id="previous" class="icon-button" type="button" aria-label="Previous cover"></button><button id="toggle-play" class="icon-button primary" type="button" aria-label="Play selected cover"></button><button id="next" class="icon-button" type="button" aria-label="Next cover"></button></div><div class="selection-detail"><span class="status-label">Selected cover</span><span id="selection-name">Nocturne</span></div><span id="position-label" class="position-label" aria-label="Position in collection">03 / 06</span></div>
+<p class="gesture-hint">Drag, scroll, or use <kbd>←</kbd><kbd>→</kbd> <span class="hint-divider">·</span> <span id="playback-label" role="status">Demo playback is simulated.</span></p>
+</section>
+<section class="details-section" id="integration" aria-labelledby="integration-title"><div class="detail-intro"><p class="eyebrow">Small surface. Useful defaults.</p><h2 id="integration-title">Your covers.<br>Your application.</h2><p>No player account, media service, or framework required. Pass your collection in. Handle actions in your own application.</p><p class="art-note">Six original vector illustrations, created for this demo. No real album covers or audio.</p></div><div class="integration"><div class="settings-row"><label class="switch-label"><input id="reflection-toggle" type="checkbox" checked><span>Reflections</span></label><label class="switch-label"><input id="motion-toggle" type="checkbox"><span>Reduce motion</span></label></div><pre aria-label="Integration example"><code>const flow = new Coverflow(container, {
+  items: yourCollection,
+  onSelect: item =&gt; showDetails(item),
+  onAction: (item, action) =&gt; {
+    yourPlayer.handle(item, action);
+  }
+});</code></pre><div class="feature-line"><span>CSS 3D</span><span>TypeScript</span><span>Zero runtime dependencies</span><span>MIT</span></div></div></section>
+</main>
+<footer><span>Built with care. Made to be adapted.</span><a href="https://github.com/NorthStarXyzz/coverflow#readme" target="_blank" rel="noopener noreferrer">Source &amp; documentation ↗</a></footer>
+<script type="module" src="/demo/main.ts"></script>
+</body></html>
